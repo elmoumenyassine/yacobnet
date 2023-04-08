@@ -24,7 +24,30 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
 </head>
-
+<style>
+    
+    .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 
+        0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 
+        0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff,
+         0 0 30px #ff4da6, 0 0 40px #ff4da6,
+          0 0 50px #ff4da6, 0 0 60px #ff4da6,
+           0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+    </style>
 <body>
 
 
@@ -135,7 +158,7 @@
                                 <h6><a href="#">Black</a></h6>
                                 <span>$80.00 x 1</span>
                             </div>
-                        </li>s
+                        </li>
                         <!---<li class="cart-btn-wrapper">
                             <a class="cart-btn btn-hover" href="#">view cart</a>
                             <a class="cart-btn btn-hover" href="#">checkout</a>
@@ -149,33 +172,7 @@
                                 <li><a href="#">pages</a>
                                     <ul>
                                         <li><a href="about-us.html">about us</a></li>
-                                        <li><a href="menu-list.html">menu list</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="register.html">register</a></li>
-                                        <li><a href="cart.html">cart page</a></li>
-                                        <li><a href="checkout.html">checkout</a></li>
-                                        <li><a href="wishlist.html">wishlist</a></li>
                                         <li><a href="contact.html">contact</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">shop</a>
-                                    <ul>
-                                        <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                        <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                        <li><a href="shop.html">grid 4 column</a></li>
-                                        <li><a href="shop-grid-box.html">grid box style</a></li>
-                                        <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                        <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                        <li><a href="shop-list-box.html">list box style</a></li>
-                                        <li><a href="product-details.html">tab style 1</a></li>
-                                        <li><a href="product-details-2.html">tab style 2</a></li>
-                                        <li><a href="product-details-3.html"> tab style 3</a></li>
-                                        <li><a href="product-details-4.html">sticky style</a></li>
-                                        <li><a href="product-details-5.html">sticky style 2</a></li>
-                                        <li><a href="product-details-6.html">gallery style</a></li>
-                                        <li><a href="product-details-7.html">gallery style 2</a></li>
-                                        <li><a href="product-details-8.html">fixed image style</a></li>
-                                        <li><a href="product-details-9.html">fixed image style 2</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">BLOG</a>
@@ -200,58 +197,39 @@
         <div class="pl-200 pr-200">
             <div class="categori-style-2">
                 <div class="category-heading-2">
-                    <h3>Nos Services</h3>
+                    <h3 class="glow">Nos Services </h3>
                     <div class="category-menu-list">
                         <ul>
                             <li>
-                                <a href="#"><img alt="" src="assets/img/icon-img/15.png">Computer & Laptops <i class="pe-7s-angle-right"></i></a>
+                                <a href="#"><img alt="" src="assets/img/icon-img/15.png">Equipements de sécurité<i class="pe-7s-angle-right"></i></a>
                                 <div class="category-menu-dropdown">
-                                    <div class="category-dropdown-style category-common4 mb-40">
-                                        <h4 class="categories-subtitle"> Desktop</h4>
+                                    <div class="category-dropdown-style category-common4 ">
+                                        <h4 class="categories-subtitle"> Vidéo surveillance</h4>
                                         <ul>
-                                            <li><a href="#"> Mother Board</a></li>
-                                            <li><a href="#"> Power Supply</a></li>
-                                            <li><a href="#"> RAM</a></li>
-                                            <li><a href="#"> Graphics Card</a></li>
-                                            <li><a href="#"> Hard Disk Drive</a></li>
-                                            <li><a href="#">Cooling Fan</a></li>
-                                            <li><a href="#">HD Cable</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4 mb-40">
-                                        <h4 class="categories-subtitle"> Laptop</h4>
+                                        <h4 class="categories-subtitle">Matériel Incendies</h4>
                                         <ul>
-                                            <li><a href="#">HP</a></li>
-                                            <li><a href="#">lenovo</a></li>
-                                            <li><a href="#"> vivo</a></li>
-                                            <li><a href="#">   Mack Book Air</a></li>
-                                            <li><a href="#"> Mack Book Pro</a></li>
-                                            <li><a href="#"> LG</a></li>
-                                            <li><a href="#"> Others Brand</a></li>
+                                            <li><a href="#">Alarmes Incendies</a></li>
+                                            <li><a href="#">Détéction d'incendies</a></li>
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4 mb-40">
-                                        <h4 class="categories-subtitle">Others</h4>
+                                        <h4 class="categories-subtitle">Gestion d’accès </h4>
                                         <ul>
-                                            <li><a href="#">Monitor</a></li>
-                                            <li><a href="#">Mouse</a></li>
-                                            <li><a href="#">Keybord</a></li>
-                                            <li><a href="#">Speaker</a></li>
-                                            <li><a href="#">Joy Stick</a></li>
-                                            <li><a href="#">Wireless Speaker</a></li>
-                                            <li><a href="#">Software</a></li>
+                                            <li><a href="#">Badges</a></li>
+                                            <li><a href="#">Poignets d'hotels</a></li>
+                                            
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4 mb-40">
-                                        <h4 class="categories-subtitle">Accessories</h4>
+                                        <h4 class="categories-subtitle">Antenne Antivol</h4>
                                         <ul class="border-none">
-                                            <li><a href="#">Monitor</a></li>
-                                            <li><a href="#">Mouse</a></li>
-                                            <li><a href="#">Keybord</a></li>
-                                            <li><a href="#">Speaker</a></li>
-                                            <li><a href="#">Joy Stick</a></li>
-                                            <li><a href="#">Wireless Speaker</a></li>
-                                            <li><a href="#">Software</a></li>
+                                            <li><a href="#">Tag vêtement</a></li>
+                                            <li><a href="#">lunettes</a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-banner-img">
@@ -267,50 +245,31 @@
                                     <div class="category-dropdown-style category-common4">
                                         <h4 class="categories-subtitle"> Desktop</h4>
                                         <ul>
-                                            <li><a href="#"> Mother Board</a></li>
-                                            <li><a href="#"> Power Supply</a></li>
-                                            <li><a href="#"> RAM</a></li>
-                                            <li><a href="#"> Graphics Card</a></li>
-                                            <li><a href="#"> Hard Disk Drive</a></li>
-                                            <li><a href="#">Cooling Fan</a></li>
-                                            <li><a href="#">HD Cable</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4">
                                         <h4 class="categories-subtitle"> Laptop</h4>
                                         <ul>
-                                            <li><a href="#">HP</a></li>
-                                            <li><a href="#">lenovo</a></li>
-                                            <li><a href="#"> vivo</a></li>
-                                            <li><a href="#">   Mack Book Air</a></li>
-                                            <li><a href="#"> Mack Book Pro</a></li>
-                                            <li><a href="#"> LG</a></li>
-                                            <li><a href="#"> Others Brand</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4">
                                         <h4 class="categories-subtitle">Others</h4>
                                         <ul>
-                                            <li><a href="#">Monitor</a></li>
-                                            <li><a href="#">Mouse</a></li>
-                                            <li><a href="#">Keybord</a></li>
-                                            <li><a href="#">Speaker</a></li>
-                                            <li><a href="#">Joy Stick</a></li>
-                                            <li><a href="#">Wireless Speaker</a></li>
-                                            <li><a href="#">Software</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common4">
                                         <h4 class="categories-subtitle">Accessories</h4>
                                         <ul class="border-none">
-                                            <li><a href="#">Monitor</a></li>
-                                            <li><a href="#">Mouse</a></li>
-                                            <li><a href="#">Keybord</a></li>
-                                            <li><a href="#">Speaker</a></li>
-                                            <li><a href="#">Joy Stick</a></li>
-                                            <li><a href="#">Wireless Speaker</a></li>
-                                            <li><a href="#">Software</a></li>
-                                        </ul>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+
                                     </div>
                                 </div>
                             </li>
@@ -320,37 +279,25 @@
                                     <div class="category-dropdown-style category-common3">
                                         <h4 class="categories-subtitle"> Desktop</h4>
                                         <ul>
-                                            <li><a href="#"> Mother Board</a></li>
-                                            <li><a href="#"> Power Supply</a></li>
-                                            <li><a href="#"> RAM</a></li>
-                                            <li><a href="#"> Graphics Card</a></li>
-                                            <li><a href="#"> Hard Disk Drive</a></li>
-                                            <li><a href="#">Cooling Fan</a></li>
-                                            <li><a href="#">HD Cable</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common3">
                                         <h4 class="categories-subtitle"> Laptop</h4>
                                         <ul>
-                                            <li><a href="#">HP</a></li>
-                                            <li><a href="#">lenovo</a></li>
-                                            <li><a href="#"> vivo</a></li>
-                                            <li><a href="#">   Mack Book Air</a></li>
-                                            <li><a href="#"> Mack Book Pro</a></li>
-                                            <li><a href="#"> LG</a></li>
-                                            <li><a href="#"> Others Brand</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+
                                         </ul>
                                     </div>
                                     <div class="category-dropdown-style category-common3">
                                         <h4 class="categories-subtitle">Others</h4>
                                         <ul class="border-none">
-                                            <li><a href="#">Monitor</a></li>
-                                            <li><a href="#">Mouse</a></li>
-                                            <li><a href="#">Keybord</a></li>
-                                            <li><a href="#">Speaker</a></li>
-                                            <li><a href="#">Joy Stick</a></li>
-                                            <li><a href="#">Wireless Speaker</a></li>
-                                            <li><a href="#">Software</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -380,65 +327,11 @@
             <div class="menu-style-4 menu-hover">
                 <nav>
                     <ul>
-                        
                         <li><a href="#">page </a>
                             <ul class="single-dropdown">
                                 <li><a href="about-us.html">about us</a></li>
-                                <li><a href="menu-list.html">menu list</a></li>
-                                <li><a href="login.html">login</a></li>
-                                <li><a href="register.html">register</a></li>
-                                <li><a href="cart.html">cart page</a></li>
-                                <li><a href="checkout.html">checkout</a></li>
-                                <li><a href="wishlist.html">wishlist</a></li>
                                 <li><a href="contact.html">contact</a></li>
                             </ul>
-                        </li>
-                        <li><a href="#">shop <i class="pe-7s-angle-down"></i> <span class="sticker-new">hot</span></a>
-                            <div class="category-menu-dropdown shop-menu">
-                                <div class="category-dropdown-style category-common2 mb-30">
-                                    <h4 class="categories-subtitle"> shop layout</h4>
-                                    <ul>
-                                        <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                        <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                        <li><a href="shop.html">grid 4 column</a></li>
-                                        <li><a href="shop-grid-box.html">grid box style</a></li>
-                                        <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                        <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                        <li><a href="shop-list-box.html">list box style</a></li>
-                                        <li><a href="cart.html">shopping cart</a></li>
-                                        <li><a href="wishlist.html">wishlist</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category-dropdown-style category-common2 mb-30">
-                                    <h4 class="categories-subtitle"> product details</h4>
-                                    <ul>
-                                        <li><a href="product-details.html">tab style 1</a></li>
-                                        <li><a href="product-details-2.html">tab style 2</a></li>
-                                        <li><a href="product-details-3.html"> tab style 3</a></li>
-                                        <li><a href="product-details-4.html">sticky style</a></li>
-                                        <li><a href="product-details-5.html">sticky style 2</a></li>
-                                        <li><a href="product-details-6.html">gallery style</a></li>
-                                        <li><a href="product-details-7.html">gallery style 2</a></li>
-                                        <li><a href="product-details-8.html">fixed image style</a></li>
-                                        <li><a href="product-details-9.html">fixed image style 2</a></li>
-                                    </ul>
-                                </div>
-                                <div class="mega-banner-img">
-                                    <a href="single-product.html">
-                                        <img src="assets/img/banner/18.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="#">blog <i class="pe-7s-angle-down"></i> <span class="sticker-new">hot</span></a>
-                            <ul class="single-dropdown">
-                                <li><a href="blog.html">blog 3 colunm</a></li>
-                                <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                <li><a href="blog-details.html">blog details</a></li>
-                                <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                            </ul>
-                        </li>
                         <li><a href="#">contact</a></li>
                     </ul>
                 </nav>
@@ -450,18 +343,18 @@
             <div class="single-slider-4 slider-height-4 bg-img" style="background-image: url(assets/img/slider/6.jpg)">
                 <div class="container">
                     <div class="slider-content-4 fadeinup-animated">
-                        <h2 class="animated">Say hello! to the <br>future.</h2>
-                        <h4 class="animated">Best Product With warranty  </h4>
-                        <a class="electro-slider-btn btn-hover animated" href="product-details.html">buy now</a>
+                        <h2 class="animated">Dites Bonjour<br>au futur.</h2>
+                        <h4 class="animated">Meilleures solutions intelligentes</h4>
+                        <a class="electro-slider-btn btn-hover animated" href="product-details.html">Pré-commande</a>
                     </div>
                 </div>
             </div>
             <div class="single-slider-4 slider-height-4 bg-img" style="background-image: url(assets/img/slider/6.jpg)">
                 <div class="container">
                     <div class="slider-content-4 fadeinup-animated">
-                        <h2 class="animated">Say hello! to the <br>future.</h2>
-                        <h4 class="animated">Best Product With warranty  </h4>
-                        <a class="electro-slider-btn btn-hover animated" href="product-details.html">buy now</a>
+                        <h2 class="animated">Dites Bonjour<br>au futur.</h2>
+                        <h4 class="animated">Meilleures solutions intelligentes</h4>
+                        <a class="electro-slider-btn btn-hover animated" href="product-details.html">Pré-commande</a>
                     </div>
                 </div>
             </div>
@@ -474,7 +367,7 @@
                     <div class="banner-wrapper-4 mb-30">
                         <a href="#"><img src="assets/img/banner/20.jpg" alt=""></a>
                         <div class="banner-content4-style1">
-                            <h4>Best <br>Electronics <br>Products.</h4>
+                            <h4>Meilleures <br>Equipements<br>Sécurité.</h4>
                         </div>
                     </div>
                 </div>
@@ -482,10 +375,10 @@
                     <div class="banner-wrapper-4 mb-30">
                         <a href="#"><img src="assets/img/banner/21.jpg" alt=""></a>
                         <div class="banner-content4-style2">
-                            <h5 class="p-left">get</h5>
-                            <h2>25% </h2>
-                            <h5 class="p-right">off</h5>
-                            <h3>Bitso X1202</h3>
+                            <h5 class="p-left">Radio</h5>
+                            <h2>3G/GSM/5G</h2>
+                            <h5 class="p-right">wifi</h5>
+                            <h3>hotspot, PBX & VoiP</h3>
                         </div>
                     </div>
                 </div>
